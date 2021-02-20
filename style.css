@@ -1,0 +1,154 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	width: 100%
+	height:80px;
+	padding: 10px 120px 10px 120px;
+	background: #021d19;
+	color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+
+#branding2 {
+	flex-basis: 40%;
+	font-size: 21px;
+}
+
+nav {
+	flex-basis: 60%;
+	display: flex;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400px;
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+#showcase {
+	background: #021d19;
+	color: white;
+}
+
+#showcase .container{
+	height: 300px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
+}
+
+.container #hello {
+	flex-basis: 50%;
+	font-size: 15px;
+	padding-right: 50px;
+	margin: 0px 30px 0 0;
+}
+
+.container #image {
+	margin-top: 20px;
+}
+#showcase .container{
+	border-top: #ccffff 1px solid;
+
+}
+
+
+.container #hello h1{
+	font-size: 40px;
+	font-family: impact;
+	line-height: 10px;
+}
+
+.container #hello h2 {
+	font-size: 25px;
+	padding: 0;
+	line-height: 0;
+}
+
+.container #hello p {
+	line-height: 25px;
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+#boxes .container {
+	height: 290px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	color: grey;
+}
+
+#showcase .container{
+	border-top: #ccffff 1px solid;
+
+}
+#boxes2 .container {
+	height: 400px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	color: grey;
+}
+
+hr {
+	margin: 15px 400px 15px 400px;
+}
+
+
+#boxes3 .container {
+	height: 70px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	color: grey;
+}
+
+footer {
+	width: 100%
+	height:80px;
+	padding: 10px 120px 10px 120px;
+	background: #021d19;
+	color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer nav a, footer p {
+	color: #008080;
+	font-size: 15px;
+} 
+
